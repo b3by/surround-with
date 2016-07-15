@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle surround-with",
+        "command": "surround-with:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "surround-with",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "surround-with:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
