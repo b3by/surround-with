@@ -1,5 +1,16 @@
-# surround-with package
+# surround-with
+Easily surround code selections with language constructs.
 
-A short description of your package.
+## Supported languages
 
-![A screenshot of your package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)
+- [ ] C/C++
+- [ ] Java
+- [ ] JavaScript
+- [ ] CoffeeScript
+- [ ] C#
+- [ ] Go
+- [ ] Objective C
+- [ ] Perl
+- [ ] PHP
+- [ ] Python
+- [ ] Ruby
