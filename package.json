@@ -2,8 +2,16 @@
   "name": "surround-with",
   "main": "./lib/surround-with",
   "version": "0.0.0",
-  "description": "A short description of your package",
+  "author": {
+    "name": "Antonio Bevilacqua",
+    "email": "b3by.in.th3.sky@gmail.com",
+    "url": "https://github.com/b3by"
+  },
+  "description": "Easily surround code selections with language constructs",
   "keywords": [
+    "surround",
+    "selection",
+    "construct"
   ],
   "activationCommands": {
     "atom-workspace": "surround-with:toggle"
