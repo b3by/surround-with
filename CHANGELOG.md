@@ -1,3 +1,3 @@
-## 0.1.0 - First Release
-* Every feature added
-* Every bug fixed
+## 0.0.1 - First release
+* Javascript, coffeescript and python constructs
+* Construct pick by select list view

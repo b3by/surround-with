@@ -1,7 +1,7 @@
 {
   "name": "surround-with",
   "main": "./lib/surround-with",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": {
     "name": "Antonio Bevilacqua",
     "email": "b3by.in.th3.sky@gmail.com",
@@ -13,15 +13,13 @@
     "selection",
     "construct"
   ],
-  "activationCommands": {
-    "atom-workspace": "surround-with:toggle"
-  },
   "repository": "https://github.com/atom/surround-with",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
   "dependencies": {
-    "atom-space-pen-views": "^2.1.x"
+    "atom-space-pen-views": "^2.1.x",
+    "fuzzaldrin": "^2.1.X"
   }
 }

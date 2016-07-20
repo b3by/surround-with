@@ -4,5 +4,69 @@
 // for a full listing of what's available.
 @import "ui-variables";
 
-.surround-with {
+.construct-list {
+  display: flex;
+  flex-direction: column;
+
+  .icon-file-add,
+  .icon-file-directory-create {
+    padding-left: 10px;
+  }
+
+  .list-group {
+    overflow: auto;
+    flex: 2;
+    position: relative;
+  }
+
+  .list-item {
+    padding: 0 @component-padding;
+
+    .add-project-folder {
+      float: right;
+      color: @text-color-subtle;
+
+      &:hover {
+        color: @text-color-highlight;
+        cursor: pointer;
+      }
+
+      &::before {
+        width: auto;
+        margin-right: 0;
+      }
+    }
+
+    .filename {
+      margin: 0;
+    }
+
+    .selected {
+      background: @background-color-selected;
+    }
+
+    &:hover {
+      background: @background-color-highlight;
+    }
+  }
+}
+
+.component-box {
+  position: relative;
+  overflow: auto;
+  .btn {
+    margin: 5px 0;
+  }
+}
+
+.close-icon {
+  display: block;
+  float: right;
+  text-align: right;
+}
+
+// Highlight matched text
+.component-type .list-group .character-match {
+  color: @text-color-highlight;
+  font-weight: bold;
 }
