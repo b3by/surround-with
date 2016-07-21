@@ -23,7 +23,7 @@ export default [
   },
   {
     "label": "switch / case",
-    "body": "switch (expression) {\n  case expression:\n    $1\n    break;  default:\n\n}"
+    "body": "switch (expression) {\n  case expression:\n    $1\n    break;\n  default:\n}"
   },
   {
     "label": "try",
