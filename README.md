@@ -12,6 +12,8 @@ This package provides a simple utility function that can be used when coding: to
 surround a selection with a code construct (that is, a control loop or a
 conditional statement).
 
+![Basic](https://raw.githubusercontent.com/b3by/surround-with/master/images/basic.gif)
+
 ## Usage
 When there is an active selection in the current buffer, the package will
 provide a list of constructs that match the current buffer grammar. Once a
