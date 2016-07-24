@@ -1,7 +1,7 @@
 {
   "name": "surround-with",
   "main": "./lib/surround-with",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "author": {
     "name": "Antonio Bevilacqua",
     "email": "b3by.in.th3.sky@gmail.com",
