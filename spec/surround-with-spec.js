@@ -2,44 +2,52 @@
 
 import SurroundWith from '../lib/surround-with'
 
-// Use the command `window:run-package-specs` (cmd-alt-ctrl-p) to run specs.
-//
-// To run a specific `it` or `describe` block add an `f` to the front (e.g. `fit`
-// or `fdescribe`). Remove the `f` to unfocus the block.
-
 describe('SurroundWith', () => {
-  let workspaceElement, activationPromise
+  let workspaceElement, activationPromise, editorElement, editor
 
   beforeEach(() => {
-    workspaceElement = atom.views.getView(atom.workspace)
-    activationPromise = atom.packages.activatePackage('surround-with')
+    // workspaceElement = atom.views.getView(atom.workspace)
+    // activationPromise = null
+    //
+    // waitsForPromise(() => {
+    //   atom.workspace.open()
+    // })
+    //
+    // runs(() => {
+    //   console.log('BEFORE: setting stuff')
+    //   editor = atom.workspace.getActiveTextEditor()
+    //   editorElement = atom.views.getView(editor)
+    //   activationPromise = atom.packages.activatePackage('surround-with')
+    //
+    //   jasmine.attachToDOM(workspaceElement)
+    // })
+    //
+    // waitsForPromise(() => {
+    //   return activationPromise
+    // })
   })
 
   describe('when the surround-with:toggle event is triggered', () => {
 
     it('hides and shows the modal panel', () => {
-      // Before the activation event the view is not on the DOM, and no panel
-      // has been created
-      // expect(workspaceElement.querySelector('.surround-with')).not.toExist()
-      // testEditor.setGrammar(atom.grammars.grammarForScopeName('source.js'))
-      // This is an activation event, triggering it will cause the package to be
-      // activated.
+      // expect(editorElement.querySelector('.construct-list')).not.toExist()
+      // editor.setGrammar(atom.workspace.grammarRegistry.grammarForScopeName('scope.js'))
       // atom.commands.dispatch(workspaceElement, 'surround-with:toggle')
 
-      // waitsForPromise(() => {
-      //   return activationPromise
-      // });
-
       // runs(() => {
-      //   expect(workspaceElement.querySelector('.surround-with')).toExist()
-      //
-      //   let surroundWithElement = workspaceElement.querySelector('.surround-with')
-      //   expect(surroundWithElement).toExist()
-      //
-      //   let surroundWithPanel = atom.workspace.panelForItem(surroundWithElement)
-      //   expect(surroundWithPanel.isVisible()).toBe(true)
-      //   atom.commands.dispatch(workspaceElement, 'surround-with:toggle')
-      //   expect(surroundWithPanel.isVisible()).toBe(false)
+      //   atom.workspace.open('./test').then((editor) => {
+      //     editor.setGrammar(atom.workspace.grammarRegistry.grammarForScopeName('scope.js'))
+      //     atom.commands.dispatch(workspaceElement, 'surround-with:toggle')
+      //     // expect(workspaceElement.querySelector('.construct-list')).toExist()
+      //   })
+
+        // let surroundWithElement = workspaceElement.querySelector('.construct-list')
+        // expect(surroundWithElement).toExist()
+        //
+        // let surroundWithPanel = atom.workspace.panelForItem(surroundWithElement)
+        // expect(surroundWithPanel.isVisible()).toBe(true)
+        // atom.commands.dispatch(workspaceElement, 'surround-with:toggle')
+        // expect(surroundWithPanel.isVisible()).toBe(false)
       // })
     })
 

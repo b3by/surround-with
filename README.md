@@ -28,13 +28,13 @@ be placed in the `keymap.cson` file:
 ```
 
 ## Supported languages
-- [ ] C/C++
-- [ ] Java
+- [x] C/C++
+- [x] Java
 - [x] JavaScript
 - [x] CoffeeScript
-- [ ] C#
+- [x] C#
 - [ ] Go
-- [ ] Objective C
+- [ ] Objective-C
 - [ ] Perl
 - [ ] PHP
 - [x] Python
